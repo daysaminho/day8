@@ -1,0 +1,21 @@
+
+.splide__slide {
+    width: 33.33%; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+}
+
+
+.splide__slide img {
+    width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+
+.splide__slide.is-active {
+    transform: scale(1.2); 
+}
