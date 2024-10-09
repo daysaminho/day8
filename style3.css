@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+img, video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAF50; 
+    border-radius: 8px;
+}
